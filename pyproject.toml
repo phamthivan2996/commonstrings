@@ -1,0 +1,25 @@
+[project]
+name = "commonstrings"
+version = "1.0.3"
+authors = [
+  { name="Pham Van", email="kagum2996@gmail.com" },
+]
+description = "Common Strings of Multiple Strings - A fast Python library written in C++"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/phamthivan2996/common_multiple_strings"
+Issues = "https://github.com/phamthivan2996/common_multiple_strings/issues"
+
+[build-system]
+requires = [
+    "setuptools",
+    "cython"
+]
+build-backend = "setuptools.build_meta"

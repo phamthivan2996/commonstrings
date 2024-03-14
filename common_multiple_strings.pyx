@@ -6,8 +6,16 @@ from libcpp.vector cimport vector
 cdef extern from "<Python.h>":
     cdef char* PyUnicode_AsUTF8(object)
     cdef object PyUnicode_DecodeUTF8(char*, Py_ssize_t, char*)
-
-cdef extern from "../common_multiple_strings/common_multiple_strings.h":
+"""
+cdef cppclass Common_multiple_strings:
+        int number_strings
+        void from_path(string) except +
+        void from_strings(vector[string]) except +
+        vector[string] query(int) except +
+        int length_longest_substring(int) except +
+        vector[string] filter_substrings_by_length(int, int) except +
+"""
+cdef extern from "./common_multiple_strings/common_multiple_strings.h":
     cdef cppclass Common_multiple_strings:
         int number_strings
         void from_path(string) except +

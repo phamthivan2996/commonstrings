@@ -18,8 +18,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/phamthivan2996/common_multiple_strings"
-Issues = "https://github.com/phamthivan2996/common_multiple_strings/issues"
+Homepage = "https://github.com/phamthivan2996/commonstrings"
+Issues = "https://github.com/phamthivan2996/commonstrings/issues"
 
 [build-system]
 requires = [

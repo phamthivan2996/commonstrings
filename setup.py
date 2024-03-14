@@ -23,7 +23,7 @@ setup(
     long_description = "Common Strings of Multiple Strings - A fast Python library written in C++",
     author = "Pham Van",
     author_email = "kagum2996@gmail.com",
-    url = "https://github.com/phamthivan2996/common_multiple_strings",
+    url = "https://github.com/phamthivan2996/commonstrings",
     ext_modules = ext_modules,
     setup_requires=["cython"],
     cmdclass = { "build_ext": build_ext }

@@ -12,6 +12,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+  "numpy",
+  "scipy"
+]
 
 [project.urls]
 Homepage = "https://github.com/phamthivan2996/common_multiple_strings"

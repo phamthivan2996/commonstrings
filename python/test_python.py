@@ -1,4 +1,4 @@
-from common_multiple_strings import PyCommon_multiple_strings
+from commonstrings import PyCommon_multiple_strings
 tree = PyCommon_multiple_strings()
 list_str = [
     'abc',

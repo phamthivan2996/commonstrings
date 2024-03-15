@@ -8,17 +8,15 @@ Having a bunch of strings, can I print some substrings which appear K times ? Ca
 ## Installing
 Make sure `Cython` is installed properly !
 
-Building from source:
 ```
-cd python
-python setup.py install
+pip install commonstrings
 ```
 
 ## Usuage and examples
 ### Step 1. Import the library
 
 ```
-from common_multiple_strings import PyCommon_multiple_strings
+from commonstrings import PyCommon_multiple_strings
 tree = PyCommon_multiple_strings()  # init
 ```
 
@@ -36,7 +34,7 @@ It is noted that sentences in file are presentened line-by-line. Each line is a 
 
 Sample code:
 ```python
->>> from common_multiple_strings import PyCommon_multiple_strings
+>>> from commonstrings import PyCommon_multiple_strings
 >>> tree = PyCommon_multiple_strings()  # init
 >>> list_str = [
        'abc',

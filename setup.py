@@ -6,19 +6,19 @@ from distutils.extension import Extension
 ext_modules = [
     Extension(
         name="commonstrings",
-        sources=["common_multiple_strings.pyx", 
-        "./common_multiple_strings/auxiliary/suffix_tree_simple.cpp",
-        "./common_multiple_strings/auxiliary/alphabet.cpp",
-        "./common_multiple_strings/auxiliary/utf8.cpp",
+        sources=[
+            "commonstrings.pyx", 
+            "./common_multiple_strings/auxiliary/suffix_tree_simple.cpp",
+            "./common_multiple_strings/auxiliary/alphabet.cpp",
+            "./common_multiple_strings/auxiliary/utf8.cpp",
         ],
-        include_dirs=["common_multiple_strings"],
-        depends=['common_multiple_strings/auxiliary/alphabet.h', 'common_multiple_strings/auxiliary/utf8.h', 'common_multiple_strings/auxiliary/utf8/checked.h', 'common_multiple_strings/auxiliary/utf8/core.h', 'common_multiple_strings/auxiliary/utf8/unchecked.h', 'common_multiple_strings/auxiliary/suffix_tree_simple.h'],
+        include_dirs=["./common_multiple_strings"],
         language="c++",
     ), 
 ]
 setup(
     name = "commonstrings",
-    version = "1.0.3",
+    version = "1.0.1",
     description = "Common Strings of Multiple Strings",
     long_description = "Common Strings of Multiple Strings - A fast Python library written in C++",
     author = "Pham Van",
@@ -26,5 +26,6 @@ setup(
     url = "https://github.com/phamthivan2996/commonstrings",
     ext_modules = ext_modules,
     setup_requires=["cython"],
-    cmdclass = { "build_ext": build_ext }
+    cmdclass = { "build_ext": build_ext },
+    package_data={"": ["*.h"]}
 )

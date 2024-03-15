@@ -1,6 +1,6 @@
 [project]
 name = "commonstrings"
-version = "1.0.3"
+version = "1.0.1"
 authors = [
   { name="Pham Van", email="kagum2996@gmail.com" },
 ]

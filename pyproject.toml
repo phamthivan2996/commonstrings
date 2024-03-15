@@ -21,6 +21,7 @@ dependencies = [
 Homepage = "https://github.com/phamthivan2996/commonstrings"
 Issues = "https://github.com/phamthivan2996/commonstrings/issues"
 Repository = "https://github.com/phamthivan2996/commonstrings.git"
+Source = "https://github.com/phamthivan2996/commonstrings"
 
 
 [build-system]

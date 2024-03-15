@@ -9,5 +9,5 @@
 *venv*/
 .ipynb_checkpoints
 /.idea
-dists/
+dists/*
 

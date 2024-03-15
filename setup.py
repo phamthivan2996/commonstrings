@@ -18,7 +18,7 @@ ext_modules = [
 ]
 setup(
     name = "commonstrings",
-    version = "1.0.1",
+    version = "1.0",
     description = "Common Strings of Multiple Strings",
     long_description = "Common Strings of Multiple Strings - A fast Python library written in C++",
     author = "Pham Van",

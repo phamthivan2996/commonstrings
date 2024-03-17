@@ -18,12 +18,15 @@ ext_modules = [
 ]
 setup(
     name = "commonstrings",
-    version = "1.2",
+    version = "1.4",
     description = "Common Strings of Multiple Strings",
     long_description = "Common Strings of Multiple Strings - A fast Python library written in C++",
     author = "Pham Van",
     author_email = "kagum2996@gmail.com",
     url = "https://github.com/phamthivan2996/commonstrings",
+    project_urls={
+        "Source": "https://github.com/phamthivan2996/commonstrings"
+    },
     ext_modules = ext_modules,
     setup_requires=["cython"],
     cmdclass = { "build_ext": build_ext },
